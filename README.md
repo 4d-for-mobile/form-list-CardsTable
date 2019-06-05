@@ -9,4 +9,4 @@
 
 ## How to integrate
 
-[List form templates tutorial](https://developer.4d.com/4d-for-ios/docs/en/creating-listform-templates.html)
+[List form templates tutorial](https://developer.4d.com/4d-for-ios/docs/en/custom-listform-templates.html)
