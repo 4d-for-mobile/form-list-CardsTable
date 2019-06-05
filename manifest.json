@@ -1,0 +1,7 @@
+{
+  "type": "listform",
+  "name": "Cards List",
+  "fields": {
+    "count": 4
+  }
+}
