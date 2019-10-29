@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ogb-fa-BrX">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ogb-fa-BrX">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +30,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RZb-24-oJb" customClass="AnimatableImageView" customModule="IBAnimatable">
-                                            <rect key="frame" x="20" y="10" width="374" height="380"/>
+                                            <rect key="frame" x="20" y="10" width="374" height="370"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_1___" value="___FIELD_1_BINDING_TYPE___"/>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -142,7 +140,7 @@
                                         <constraint firstItem="og3-1y-i5K" firstAttribute="width" secondItem="Tbc-j2-aCT" secondAttribute="width" id="GOt-hM-NmZ"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="og3-1y-i5K" secondAttribute="bottom" id="MEg-7F-0Gx"/>
                                         <constraint firstItem="RZb-24-oJb" firstAttribute="leading" secondItem="bUw-MO-Pjd" secondAttribute="leading" constant="20" id="OK0-zM-Fqk"/>
-                                        <constraint firstAttribute="bottom" secondItem="RZb-24-oJb" secondAttribute="bottom" constant="10" id="Whg-Nd-eps"/>
+                                        <constraint firstAttribute="bottom" secondItem="RZb-24-oJb" secondAttribute="bottom" constant="20" id="Whg-Nd-eps"/>
                                         <constraint firstItem="RZb-24-oJb" firstAttribute="top" secondItem="bUw-MO-Pjd" secondAttribute="top" constant="10" id="cBc-EN-kN1"/>
                                         <constraint firstItem="P7g-KH-GWM" firstAttribute="leading" secondItem="bUw-MO-Pjd" secondAttribute="leadingMargin" constant="26" id="fIP-Ue-xVU"/>
                                         <constraint firstItem="og3-1y-i5K" firstAttribute="top" secondItem="Jct-NL-Kcl" secondAttribute="bottom" constant="-23" id="fkG-lk-hGn"/>
@@ -165,7 +163,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="TmP-Gk-7ej" kind="showDetail" identifier="showDetails" customClass="___LIST_TO_DETAIL_TRANSITION___" customModule="IBAnimatable" id="lRt-3I-ZEi"/>
+                                    <segue destination="TmP-Gk-7ej" kind="showDetail" identifier="showDetails" id="lRt-3I-ZEi"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -220,7 +218,7 @@
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="06B-nF-C5E">
-                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" name="BackgroundColor"/>
